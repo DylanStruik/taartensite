@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Contact - Lianna's cakes</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Lobster|Open+Sans" rel="stylesheet">
+		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+		<meta charset="UTF-8">
+		<html lang="nl">
+	</head>
+	<body>
+	<!--LOGO-->
+		<div class="logo">
+		<a href="index.html"><img src="img/logo.png" width="170" height="150" alt="logo"></a>
+		</div>
+	<!--MENU-->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="nieuws.html">Nieuws</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="bestellen.html">Bestellen</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+	<!--BANNER-->
+		<img src="img/banners/contact.png" width="100%" height="300" alt="banner product">	
+
+	<!--SIDEBAR-->
+		<div class="right">
+		<a href="https://www.instagram.com/liannanascakes/" target="_blank"><img src="img/insta.png" width="200" height="200" alt="instagram logo"></a>
+		<a href="https://starbucks.com" target="_blank"><img src="img/advert.jpg" width="250" height="400" alt="advertentie"></a>
+
+		</div>
+	<!--CONTENT-->
+		<div class="content">
+		<h3>Contact</h3>
+		<p>Vragen? Tips? Alles is welkom! Stuur ons een berichtje via het contact formulier hieronder en we nemen binnen 24 uur contact met je op!</p>
+		</div>
+	<!--FORMULIER-->
+		<div class="content">
+		<form>
+			<p>
+			Voornaam: <br>
+			<input type="text" name="voornaam"><br>
+			Achternaam: <br>
+			<input type="text" name="achternaam"><br>
+			Email: <br>
+			<input type="text" name="postcode"><br>
+			Telefoonnummer: <br>
+			<input type="text" name="telefoon"><br>
+			Bericht: <br>
+			<textarea name="message" rows="10" cols="30">
+			</textarea> <br>
+			
+			 <input type="submit" value="Verstuur">
+			 
+			</p>
+		</form>
+		</div>	
+		<br><br><br><br><br>
+	<!--MAPS-->
+	<!DOCTYPE html>
+		<html>
+		  <head>
+		  </head>
+		  <body>
+			<div id="map"></div>
+			<script>
+			  function initMap() {
+				var uluru = {lat: 52.8823249, lng: 4.7470235,17z};
+				var map = new google.maps.Map(document.getElementById('map'), {
+				  zoom: 100,
+				  center: uluru
+				});
+				var marker = new google.maps.Marker({
+				  position: uluru,
+				  map: map
+				});
+			  }
+			</script>
+			<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT_NFnf_8DQgTWMFXRAhpzam-czaeMkDo&callback=initMap">
+			</script>
+		  </body>
+		</html>
+		
+	<!--FOOTER-->
+		<div class="footer">
+		<div class="deel1">
+		<p>Copyright 2016 Lianna's cakes. Website ontwikkeld door Dylan Struik.</p>
+		</div>
+		</div>
+	<!--EINDE FOOTER-->
+		
+</body>
+</html>
+

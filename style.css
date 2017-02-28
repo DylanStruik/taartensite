@@ -1,0 +1,104 @@
+html{
+	height:100%;
+	width:100%;
+}
+
+body{
+	margin:0%;
+	height:100%;
+	width:100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	width:20%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #f55d9a;
+}
+
+.active {
+    background-color: #c55d9d;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    padding: 10px;
+	padding-right:2px;
+}
+
+.content {
+	padding-left:15%;
+	padding-right:25%;
+	text-align:center;
+}
+
+
+.footer {
+	background-color:#c55d9d;
+	padding-left:15%;
+	padding-right:25%;
+}
+
+.deel1 {
+	color:white;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align:center;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.nieuws {
+	top:10px;
+	bottom:10px;
+}
+
+.logo {
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:45%;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 24px
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;	
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;	
+}
